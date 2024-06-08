@@ -1,9 +1,13 @@
-import React from 'react'
+import React from "react";
+import Header from "../components/Header";
 
 const SignIn = () => {
   return (
-    <div>Signin</div>
-  )
-}
+    <div className="signin-section">
+      <Header />
+      <div>Signin</div>
+    </div>
+  );
+};
 
-export default SignIn
+export default SignIn;

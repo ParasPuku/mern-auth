@@ -1,9 +1,13 @@
-import React from 'react'
+import React from "react";
+import Header from "../components/Header";
 
 const Profile = () => {
   return (
-    <div>Profile</div>
-  )
-}
+    <div className="profile-section">
+      <Header />
+      <div>Profile</div>
+    </div>
+  );
+};
 
-export default Profile
+export default Profile;
