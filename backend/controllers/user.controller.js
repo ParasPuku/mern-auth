@@ -1,10 +1,8 @@
-const express = require("express");
-const app = express();
 const handleUserController = (req, res, next) => {
-    const {name, email, password} = req.body;
-    
+  const { name, email, password } = req.body;
+  console.log("UserController", name, email, password);
   res.json({
-    message: "Hello World",
+    message: "Hello Worldsss",
   });
 };
 
